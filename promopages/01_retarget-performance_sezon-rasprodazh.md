@@ -104,17 +104,15 @@ TalleR упаковывает товары в прочные картонные 
 
 ---
 
-## Промпты для обложек (Higgsfield)
+## Обложки (реальные фото товаров с taller.ru)
 
-Обложку делаем без текста и мелких деталей. Обязательна квадратная обложка 1080×1080; горизонтальная 1600×800 делается по желанию.
+Папка `creatives/01_sezon-rasprodazh/oblozhki/`. Мобильная обложка 1080×1080 обязательна, десктопная 1600×800 загружается по желанию. На обложке только фото и логотип: заголовок статьи Промостраницы выводят сами.
 
-**A. «Чек-лист». Квадрат 1:1**
-> Top-down flat lay on a warm light-grey stone kitchen countertop: a dark anthracite non-stick frying pan, a stainless steel saucepan with a glass lid, a wooden spatula, a small paper shopping list with pencil (no readable text), soft natural window light from the left, calm premium home-kitchen mood, muted warm palette, editorial product photography, high detail, no logos, no text
-
-**B. «Сравнение». Горизонталь 2:1**
-> Two frying pans side by side on a matte beige surface, one forged aluminium with dark stone-like coating, one polished stainless steel with thick capsule bottom visible, slightly angled to show the base thickness, soft daylight, minimalist Scandinavian kitchen background out of focus, honest product comparison feel, photorealistic, no text, no logos
-
-**C. «Руки и выбор». Квадрат 1:1**
-> Close-up of a woman's hands holding a dark non-stick frying pan and turning it to look at the bottom, cozy modern kitchen in the background with warm evening light, shallow depth of field, authentic lifestyle photo, natural skin tones, no text
+| Сюжет | Мобильная 1080×1080 | Десктоп 1600×800 | Товар |
+|---|---|---|---|
+| 1. «Антрацит» на кухне | 01_antracit-kuhnya_mob_1080x1080.jpg | 01_antracit-kuhnya_desk_1600x800.jpg | TR-44182 |
+| 2. Professional | 02_professional-nabor_mob_1080x1080.jpg | 02_professional-nabor_desk_1600x800.jpg | серия Professional |
+| 3. «Грейстоун» | 03_greystoun_mob_1080x1080.jpg | 03_greystoun_desk_1600x800.jpg | серия «Грейстоун» |
+| 4. «Минерал» с креветками | 04_mineral-krevetki_mob_1080x1080.jpg | 04_mineral-krevetki_desk_1600x800.jpg | серия «Минерал» |
 
 **Описание обложки для ЕРИР:** «Сковороды и кастрюля бренда TalleR на кухонной столешнице».
