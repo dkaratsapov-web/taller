@@ -85,3 +85,12 @@ _figures_base = figures
 def figures(items, *a, **kw):
     items = [(i[0].replace('₽', '<span class="rub">₽</span>'),) + tuple(i[1:]) for i in items]
     return _figures_base(items, *a, **kw)
+
+# Колонки строго равной ширины, чтобы разделители в соседних рядах совпадали
+_figures_rub = figures
+def figures(items, *a, **kw):
+    return _figures_rub(items, *a, **kw).replace(',1fr)', ',minmax(0,1fr))')
+_products_base = products
+def products(*a, **kw):
+    return _products_base(*a, **kw).replace(',1fr)', ',minmax(0,1fr))')
+CSS += ".fig{padding:0 28px}.fig:first-child{padding-left:0}.fig span{font-size:31px}"
