@@ -11,7 +11,7 @@ body{width:1080px;font-family:Inter,sans-serif;background:#fff;color:#1f1f1f}
 .num{display:inline-block;background:#DA3B64;color:#fff;font-weight:600;font-size:26px;padding:8px 18px;border-radius:8px;margin-bottom:18px}
 h1{font-size:62px;line-height:1.08;font-weight:700;letter-spacing:-1px}
 .logo{height:46px;margin-top:6px}
-.sub{font-size:32px;color:#707070;margin-top:14px;line-height:1.3}
+.sub{font-size:32px;color:#707070;margin-top:4px;line-height:1.3}
 .photo{border-radius:20px;background:#f5f5f5 center/cover no-repeat}
 .grid{display:grid;gap:24px}
 .card{background:#F7F5F6;border-radius:20px;padding:28px}
@@ -29,7 +29,7 @@ ol li:before{content:counter(i);flex:0 0 64px;height:64px;border-radius:50%;back
 """
 def head(num, title, sub=''):
     s = f'<p class="sub">{nb(sub)}</p>' if sub else ''
-    return f'<div class="head"><div><span class="num">{num}</span><h1>{nb(title)}</h1>{s}</div><img class="logo" src="{logo}"></div>'
+    return f'<div class="head"><div><span class="num">{num}</span>{s}</div><img class="logo" src="{logo}"></div>'
 pages = {
 "01_7-punktov": head("Чек-лист", "7 пунктов перед покупкой посуды") + f"""
 <div class="photo" style="height:470px;background-image:url({img('44182/1ypuayqaoy')});background-position:center 70%"></div>
