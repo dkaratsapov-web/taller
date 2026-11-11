@@ -78,3 +78,10 @@ CSS += ".prod{text-align:center}"
 def nb(t):
     """Короткие слова и числа не остаются в конце строки."""
     return re.sub(r"(\d)\s(?=[а-яёА-ЯЁ°₽%])", lambda m: m.group(1) + " ", _nb_words(t))
+
+# Знака рубля нет в Cormorant: набираем его тонким Inter, чтобы не выбивался из антиквы
+CSS += ".fig b .rub{display:inline;color:#1E1C1D;line-height:1;margin-top:0;font-family:Inter,sans-serif;font-weight:400;font-size:.74em;letter-spacing:0;margin-left:.06em;vertical-align:0}"
+_figures_base = figures
+def figures(items, *a, **kw):
+    items = [(i[0].replace('₽', '<span class="rub">₽</span>'),) + tuple(i[1:]) for i in items]
+    return _figures_base(items, *a, **kw)
