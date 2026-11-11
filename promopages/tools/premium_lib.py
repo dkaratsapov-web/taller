@@ -62,6 +62,8 @@ body{width:1080px;background:#fff;color:#1E1C1D;font-family:Inter,sans-serif;-we
 .q{position:relative;padding:8px 0 36px 76px}
 .q:before{content:"«";position:absolute;left:0;top:-14px;font-family:Cormorant,serif;font-weight:600;font-size:120px;line-height:1;color:#DA3B64}
 .q p{font-family:Cormorant,serif;font-weight:500;font-size:46px;line-height:1.18;color:#1E1C1D}
+.q .who{display:block;font-size:26px;color:#9A9497;margin-top:10px}
+.q{padding-bottom:30px}
 .foot{font-size:25px;line-height:1.4;color:#9A9497;padding:0 64px 44px}
 .band + .foot{padding-top:24px;background:#F1EFEE}
 """
