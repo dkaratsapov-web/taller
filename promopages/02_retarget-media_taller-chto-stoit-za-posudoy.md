@@ -27,6 +27,8 @@ TalleR — торговая марка кухонной посуды, котор
 
 Посуду TalleR продают магазины-партнёры и маркетплейсы. Её покупают не только в России, но и в Беларуси, Казахстане, Армении, Кыргызстане и Абхазии. Полный каталог есть в официальном интернет-магазине taller.ru. Девиз бренда — «Живи со вкусом!».
 
+[ИЛЛЮСТРАЦИЯ: creatives/02_taller-o-brende/v-tekst/01_o-brende.png]
+
 ### Из чего делают посуду
 
 В ассортименте посуда из нержавеющей стали 18/10, кованого и литого алюминия и чугуна. Кухонные принадлежности делают из цинкового сплава, бамбука, силикона и термостойкого пластика.
@@ -40,6 +42,8 @@ TalleR — торговая марка кухонной посуды, котор
 | «Грейстоун», 24 см | кованый алюминий | 3,3 мм | трёхслойное MULTISTONE® |
 | «Минерал», 28 см | литой алюминий | 4,8 мм | двухслойное XYLAN®, до 260 °C |
 | Professional, 26 см | сталь 18/10 | 5 мм, капсулированное | трёхслойное ILAG®, до 5 000 циклов истирания |
+
+[ИЛЛЮСТРАЦИЯ: creatives/02_taller-o-brende/v-tekst/02_materialy.png]
 
 [ССЫЛКИ → «Грейстоун»: https://taller.ru/catalog/tr-44036/ · «Минерал»: https://taller.ru/catalog/tr-44024/ · Professional: https://taller.ru/catalog/tr-44903/]
 
@@ -55,7 +59,8 @@ TalleR — торговая марка кухонной посуды, котор
 - **Professional.** Корпус из нержавеющей стали с антипригарным покрытием.
 - **Чугунная серия «Профессионал».** В ней есть и сковорода вок с крышкой.
 
-[ФОТО: 3–4 сковороды разных коллекций в одном кадре]
+[ИЛЛЮСТРАЦИЯ: creatives/02_taller-o-brende/v-tekst/03_kollekcii.png]
+
 [ССЫЛКА → новинки: https://taller.ru/catalog/novinki/]
 
 ### Детали, которые оцениваешь уже на кухне
@@ -65,6 +70,8 @@ TalleR — торговая марка кухонной посуды, котор
 - **Бакелитовая ручка с бархатистой отделкой.** Не нагревается, если конфорка не шире дна.
 - **Совместимость с индукцией.** Алюминиевые модели «Антрацит», «Грейстоун» и «Минерал» подходят для всех типов плит, включая индукционные.
 
+[ИЛЛЮСТРАЦИЯ: creatives/02_taller-o-brende/v-tekst/04_detali.png]
+
 ### Что происходит после заказа
 
 - Интернет-магазин принимает заказы круглосуточно. Все товары новые, их отправляют с основного склада TalleR в Санкт-Петербурге. Витринных образцов в заказах нет.
@@ -72,6 +79,9 @@ TalleR — торговая марка кухонной посуды, котор
 - При заказе от 2 500 ₽ доставка по России бесплатна, хотя в дальние регионы может быть платной. Заказ привозит курьер, или его можно забрать в одном из 8 000 пунктов выдачи либо на почте.
 - Заказ можно осмотреть до оплаты: у курьера, в пункте выдачи или на почте.
 - На посуду TalleR действует гарантия 2 года. По данным магазина, из-за производственных дефектов возвращают менее 0,2% заказов. Заявку рассматривает гарантийный отдел, через него же можно заказать комплектующие: ручки, колбы, пробки.
+
+[ИЛЛЮСТРАЦИЯ: creatives/02_taller-o-brende/v-tekst/05_servis.png]
+
 [ССЫЛКА → преимущества магазина: https://taller.ru/premium/ · гарантия: https://taller.ru/help/warranty/ · доставка: https://taller.ru/help/delivery/]
 
 ### Что пишут покупатели
@@ -81,6 +91,8 @@ TalleR — торговая марка кухонной посуды, котор
 > «Доставили заказ в срок, упаковано отлично. Посуда пришла без повреждений. Красивый дизайн».
 
 Это отзывы с сайта taller.ru. Остальные можно почитать на странице отзывов.
+
+[ИЛЛЮСТРАЦИЯ: creatives/02_taller-o-brende/v-tekst/06_otzyvy.png]
 
 [ССЫЛКА → все отзывы: https://taller.ru/company/reviews/]
 
@@ -94,15 +106,15 @@ TalleR — торговая марка кухонной посуды, котор
 
 ---
 
-## Промпты для обложек (Higgsfield)
+## Обложки (реальные фото товаров с taller.ru)
 
-**A. «Бренд-кадр». Квадрат 1:1**
-> Elegant still life of premium cookware on a dark graphite kitchen island: an anthracite non-stick frying pan, a stainless steel saucepan and a cast iron skillet arranged in a calm composition, warm side light, subtle steam, sophisticated home atmosphere, editorial brand photography, deep greys with warm wood accents, no text, no logos
+Папка `creatives/02_taller-o-brende/oblozhki/`. Мобильная обложка 1080×1080 обязательна, десктопная 1600×800 загружается по желанию. Логотип стоит в безопасной зоне, заголовок статьи Промостраницы выводят сами.
 
-**B. «Коллекции». Горизонталь 2:1**
-> Wide shot of an open modern kitchen shelf with neatly arranged frying pans of different finishes (dark stone-like, grey granite-like, polished steel), wooden boards and a glass teapot, soft morning light, cozy Scandinavian interior, inviting and trustworthy mood, photorealistic, no text
-
-**C. «Распаковка». Квадрат 1:1**
-> Hands unboxing a new frying pan from neat cardboard packaging with paper wrapping on a light kitchen table, careful protective packaging visible, natural daylight, authentic moment, warm and reassuring mood, shallow depth of field, no readable text, no logos
+| Сюжет | Мобильная 1080×1080 | Десктоп 1600×800 | Товар |
+|---|---|---|---|
+| 1. Professional на тёмном фоне | 01_professional-temnyy_mob_1080x1080.jpg | 01_professional-temnyy_desk_1600x800.jpg | серия Professional |
+| 2. Набор кастрюль «Льюис» | 02_lyuis-kastryuli_mob_1080x1080.jpg | 02_lyuis-kastryuli_desk_1600x800.jpg | TR-11071 |
+| 3. «Хюгге» в духовке | 03_hyugge-duhovka_mob_1080x1080.jpg | 03_hyugge-duhovka_desk_1600x800.jpg | серия «Хюгге» |
+| 4. «Хюгге» на тёмном фоне | 04_hyugge-temnyy_mob_1080x1080.jpg | 04_hyugge-temnyy_desk_1600x800.jpg | серия «Хюгге» |
 
 **Описание обложки для ЕРИР:** «Кухонная посуда бренда TalleR: сковороды и кастрюля».
