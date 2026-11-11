@@ -4,10 +4,10 @@ b64 = lambda f: base64.b64encode(open(f,'rb').read()).decode()
 img = lambda p: 'data:image/jpeg;base64,' + b64(glob.glob(f'{R}/{p}*')[0])
 logo = 'data:image/png;base64,' + b64(f'{S}/site/logo.png')
 covers = [
- ("01_professional-temnyy", "44903/33intkhci6", "center 50%", "center 52%"),
+ ("01_kuhnya-celikom", "51979/x8yxv1byrt", "center 55%", "center 55%"),
  ("02_lyuis-kastryuli", "11071/gavfsqg9x9", "center 50%", "center 50%", None, "contain"),
- ("03_hyugge-duhovka", "44105/ek0cfguyby", "center 50%", "center 50%"),
- ("04_hyugge-temnyy", "44105/h1scdr80mc", "center 50%", "center 58%"),
+ ("03_chaynik-reynard", "11372/70hddjhpop", "center 50%", "center 50%", "11372/2rctbjdyc5", "contain"),
+ ("04_pribory-somerset", "21665/1oin0roazr", "center 50%", "center 50%"),
 ]
 SALE = set()
 TAG = """<div style="position:absolute;top:{top}px;right:{right}px;transform:scale({sc});transform-origin:top right">
