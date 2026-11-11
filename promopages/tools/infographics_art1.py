@@ -53,19 +53,30 @@ pages = {
 <div class="stat"><b>до 5 000</b><span>циклов истирания</span></div>
 <div class="stat"><b>Без ПФОК</b><span>(PFOA) в покрытии</span></div>
 </div></div>""",
-"05_plita-ruchka": head("Пункты 4 и 5", "Плита и ручка", "Пример: сковорода «Минерал» 28 см") + f"""
-<div class="photo" style="height:430px;background-image:url({img('44024/6zedo8pakj')});background-position:center 45%"></div>
-<div class="grid" style="grid-template-columns:1fr 1fr 1fr;margin-top:24px">
-<div class="stat"><b style="font-size:46px">Все плиты</b><span>включая индукционные</span></div>
-<div class="stat"><b style="font-size:46px">20,3 см</b><span>диаметр дна: конфорка не шире</span></div>
-<div class="stat"><b style="font-size:46px">Съёмная</b><span>ручка: можно в духовку</span></div>
+"05_plita": head("Пункт 4", "", "Пример: сковорода «Минерал» 28 см") + f"""
+<div class="photo" style="height:470px;background-image:url({img('44024/6zedo8pakj')});background-position:center 45%"></div>
+<div class="grid" style="grid-template-columns:1fr 1fr;margin-top:24px">
+<div class="stat"><b style="font-size:52px">Все плиты</b><span>включая индукционные</span></div>
+<div class="stat"><b style="font-size:52px">20,3 см</b><span>диаметр дна: конфорка не шире</span></div>
 </div>""",
-"06_garantiya-dostavka": head("Пункты 6 и 7", "Гарантия и доставка") + f"""
-<div class="photo" style="height:430px;background-image:url({img('44903/4ug718lrom')});background-position:center 40%"></div>
+"06_ruchka": head("Пункт 5", "", "Какие бывают ручки у сковород TalleR") + '<div class="grid" style="grid-template-columns:1fr 1fr 1fr;gap:20px">' + ''.join(
+ f'<div class="card" style="padding:22px"><div class="pic" style="height:230px;background-image:url({img(p)})"></div><h3 style="font-size:32px">{nb(t)}</h3><p style="font-size:25px">{nb(d)}</p></div>' for p,t,d in [
+ ('44036g/0n21hm83cz','Бакелитовая','Не нагревается, если конфорка не шире дна. «Грейстоун»'),
+ ('44903/ek0ys5tye1','Стальная','При долгом нагреве может нагреться: нужна прихватка. Professional'),
+ ('44024/419hrzgt4l','Съёмная','Можно поставить в духовку и хранить компактно. «Минерал»')]) + '</div>',
+"07_garantiya": head("Пункт 6", "") + f"""
+<div class="photo" style="height:470px;background-image:url({img('44903/rcrg7xar5e')});background-position:center 45%"></div>
 <div class="grid" style="grid-template-columns:1fr 1fr 1fr;margin-top:24px">
 <div class="stat"><b style="font-size:46px">2 года</b><span>гарантии на посуду TalleR</span></div>
-<div class="stat"><b style="font-size:46px">Осмотр</b><span>заказа до оплаты</span></div>
+<div class="stat"><b style="font-size:46px">Фото</b><span>и номер заказа: заявка в гарантийный отдел</span></div>
+<div class="stat"><b style="font-size:46px">Детали</b><span>ручки, колбы, пробки через гарантийный отдел</span></div>
+</div>""",
+"08_dostavka": head("Пункт 7", "") + f"""
+<div class="photo" style="height:470px;background-image:url({img('44903/4ug718lrom')});background-position:center 40%"></div>
+<div class="grid" style="grid-template-columns:1fr 1fr 1fr;margin-top:24px">
 <div class="stat"><b style="font-size:46px">от 2 500 ₽</b><span>бесплатная доставка*</span></div>
+<div class="stat"><b style="font-size:46px">Осмотр</b><span>заказа до оплаты</span></div>
+<div class="stat"><b style="font-size:46px">8 000</b><span>пунктов выдачи по России</span></div>
 </div><p class="foot">* В дальние регионы доставка может быть платной. Условия на taller.ru</p>""",
 }
 for name, body in pages.items():
