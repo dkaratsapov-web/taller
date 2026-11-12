@@ -5,7 +5,7 @@ k = Kit(S, R)
 sep = '<div style="height:1px;background:rgba(30,28,29,.12);margin:0 64px 40px"></div>'
 pages = {
 "01_o-brende": k.top('') + k.photo('51979/94em9xmot0', 620, 'center 60%')
-  + figures([('2006','год выхода на российский рынок'),('6','стран продаж'),('Петербург','компания и склад')], size=88),
+  + figures([('2006','год выхода на российский рынок'),('6','стран продаж'),('<em style="font-style:normal;white-space:nowrap">Санкт-Петербург</em>','компания и склад')], size=72).replace('repeat(3,minmax(0,1fr))','minmax(0,1fr) minmax(0,.75fr) minmax(0,2.4fr)'),
 "02_kuhnya-celikom": k.top('') + products(k, [
   ('17350/o0thvjr02o','Кастрюли','Набор «Эксперт», 6 предметов'),
   ('44182/m269m827fc','Сковороды','От блинных до вока и гриля'),
