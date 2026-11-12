@@ -132,8 +132,8 @@
 | Сюжет | Мобильная 1080×1080 | Десктоп 1600×800 | Товары |
 |---|---|---|---|
 | 1. Чугунные сковороды на кухне, бирка «Тест: 7 вопросов» | 01_chugun-kuhnya_mob_1080x1080.jpg | 01_chugun-kuhnya_desk_1600x800.jpg | серия «Профессионал» |
-| 2. «Хюгге» в духовке | 02_hyugge-duhovka_mob_1080x1080.jpg | 02_hyugge-duhovka_desk_1600x800.jpg | TR-44105 |
+| 2. Стопка сковород «Комфорт» | 02_komfort-stopka_mob_1080x1080.jpg | 02_komfort-stopka_desk_1600x800.jpg | серия «Комфорт» |
 | 3. «Грейстоун» на деревянном столе | 03_greystoun-derevo_mob_1080x1080.jpg | 03_greystoun-derevo_desk_1600x800.jpg | серия «Грейстоун» |
-| 4. «Хюгге» на тёмном фоне | 04_hyugge-temnyy_mob_1080x1080.jpg | 04_hyugge-temnyy_desk_1600x800.jpg | TR-44105 |
+| 4. «Грейси» с овощами | 04_greysi-ovoshchi_mob_1080x1080.jpg | 04_greysi-ovoshchi_desk_1600x800.jpg | серия «Грейси» |
 
 **Описание обложки для ЕРИР:** «Сковорода бренда TalleR».
